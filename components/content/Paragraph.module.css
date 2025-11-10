@@ -1,0 +1,11 @@
+.paragraph {
+  margin: 0 auto 1rem auto;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
