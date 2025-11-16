@@ -77,6 +77,7 @@ export const strings: Record<Language, Translations> = {
     welcome: {
       title: 'ברוכים הבאים לדפלואנסר',
       description: 'אנו חיים בעולם שבו תשומת הלב שלנו היא המטבע—ואנחנו נשאבים. האינטרנט ואפליקציות מובייל מעוצבות לא רק כדי לשרת אותנו, אלא כדי ללכוד אותנו. אם אתה לא משלם עבור המוצר, אתה המוצר.',
+      defluencer: "We're not anti-tech. We're pro-awareness. The Deinfluencer uses digital tools to fight back—to help people reclaim their time, attention, and autonomy without giving up the benefits of technology.</br><strong>The future belongs to those who choose consciously.</strong>",
       help: 'עזרה',
       aboutUs: 'אודותינו',
       learnMore: 'למד עוד',
@@ -112,6 +113,7 @@ export const strings: Record<Language, Translations> = {
     welcome: {
       title: 'Bienvenido a Defluencer',
       description: 'Vivimos en un mundo donde nuestra atención es la moneda—y estamos siendo drenados. Internet y las aplicaciones móviles están diseñadas no solo para servirnos, sino para atraparnos. Si no estás pagando por el producto, tú eres el producto.',
+      defluencer: "We're not anti-tech. We're pro-awareness. The Deinfluencer uses digital tools to fight back—to help people reclaim their time, attention, and autonomy without giving up the benefits of technology.</br><strong>The future belongs to those who choose consciously.</strong>",
       help: 'Ayuda',
       aboutUs: 'Sobre nosotros',
       learnMore: 'Aprende más',
@@ -147,6 +149,7 @@ export const strings: Record<Language, Translations> = {
     welcome: {
       title: 'Bienvenue sur Defluencer',
       description: 'Nous vivons dans un monde où notre attention est la monnaie—et nous sommes vidés. Internet et les applications mobiles sont conçues non seulement pour nous servir, mais pour nous piéger. Si vous ne payez pas pour le produit, vous êtes le produit.',
+      defluencer: "We're not anti-tech. We're pro-awareness. The Deinfluencer uses digital tools to fight back—to help people reclaim their time, attention, and autonomy without giving up the benefits of technology.</br><strong>The future belongs to those who choose consciously.</strong>",
       help: 'Aide',
       aboutUs: 'À propos de nous',
       learnMore: 'En savoir plus',
@@ -182,6 +185,7 @@ export const strings: Record<Language, Translations> = {
     welcome: {
       title: 'Willkommen bei Defluencer',
       description: 'Wir leben in einer Welt, in der unsere Aufmerksamkeit die Währung ist—und wir werden ausgeschöpft. Das Internet und mobile Apps sind nicht nur dazu designed, uns zu dienen, sondern uns zu fangen. Wenn Sie nicht für das Produkt bezahlen, sind Sie das Produkt.',
+      defluencer: "We're not anti-tech. We're pro-awareness. The Deinfluencer uses digital tools to fight back—to help people reclaim their time, attention, and autonomy without giving up the benefits of technology.</br><strong>The future belongs to those who choose consciously.</strong>",
       help: 'Hilfe',
       aboutUs: 'Über uns',
       learnMore: 'Mehr erfahren',
