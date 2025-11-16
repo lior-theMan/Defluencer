@@ -1,4 +1,4 @@
-import React, {Suspense, useState} from 'react'
+import React, { useState } from 'react'
 import styles from './VideoContent.module.css'
 import { useRef } from "react";
 
@@ -28,12 +28,12 @@ export function EmbedVideoContent({
      loop = true,
      muted = true,
  }: VideoContentProps) {
+    const iframeRef = useRef(null);
+    const [isMuted, setIsMuted] = useState(true);
     if (!src) return null
     let videoId = src.split("embed/")[1]
     let params = paramsToString(controls, autoplay, loop, muted)
 
-    const iframeRef = useRef(null);
-    const [isMuted, setIsMuted] = useState(true);
 
     const toggleSound = () => {
         const iframe = iframeRef.current as HTMLIFrameElement | null;
@@ -62,7 +62,8 @@ export function EmbedVideoContent({
                 ref={iframeRef}
                 width={width}
                 height={height}
-                src={`${src}?${paramsToString(controls, autoplay, loop, muted)}&playsinline=1&enablejsapi=1&playlist=${videoId}`}
+                src={`${src}?${params}&playsinline=1&enablejsapi=1&playlist=${videoId}`}
+                title={title}
                 allow="autoplay; encrypted-media"
                 frameBorder="0"
             />
