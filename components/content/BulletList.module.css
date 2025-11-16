@@ -1,0 +1,20 @@
+.container {
+    width: 100%;
+    margin: 1rem 0;
+    text-align: left !important;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+.list {
+    list-style: disc;
+    padding-left: 2rem;
+    gap: 2rem;
+}
+
+.item {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem !important;
+    animation: fadeIn 1s ease-in 0.2s both;
+}

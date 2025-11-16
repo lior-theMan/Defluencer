@@ -13,12 +13,10 @@ export function Paragraph({
   className = '',
 }: ParagraphProps) {
   return (
-    <p
-      className={`${styles.paragraph} ${className}`}
-      style={textStyle}
-    >
-      {text}
-    </p>
+      <div
+          className={`${styles.paragraph} ${className}`}
+          style={textStyle}
+          dangerouslySetInnerHTML={{ __html: text }} />
   )
 }
 

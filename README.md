@@ -5,7 +5,7 @@ A modern content management platform built with Next.js, TypeScript, and securit
 ## Features
 
 - 🎨 Beautiful welcome page with internationalization
-- 🧩 Reusable content components (ImageContent, VideoContent, TextContent)
+- 🧩 Reusable content components (ImageContent, LocalVideoContent, TextContent)
 - 🌍 Multi-language support (English, Hebrew, Spanish, French, German)
 - 📝 Easy content addition using simple components
 - 🔒 Security-first approach with input sanitization
@@ -45,12 +45,12 @@ import { ImageContent } from '@/components/content'
 <ImageContent src="https://example.com/image.jpg" alt="Description" />
 ```
 
-### Using VideoContent
+### Using LocalVideoContent
 
 ```tsx
-import { VideoContent } from '@/components/content'
+import { LocalVideoContent } from '@/components/content'
 
-<VideoContent src="https://example.com/video.mp4" title="Video Title" />
+<LocalVideoContent src="https://example.com/video.mp4" title="Video Title" />
 ```
 
 ### Using TextContent with Title and Paragraph
@@ -114,7 +114,7 @@ defluencer/
 ├── components/             # Reusable components
 │   ├── content/            # Content components
 │   │   ├── ImageContent.tsx
-│   │   ├── VideoContent.tsx
+│   │   ├── LocalVideoContent.tsx
 │   │   ├── TextContent.tsx
 │   │   ├── Title.tsx
 │   │   └── Paragraph.tsx

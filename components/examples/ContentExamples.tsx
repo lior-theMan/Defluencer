@@ -6,7 +6,7 @@
  */
 
 import { ImageContent } from '../content/ImageContent'
-import { VideoContent } from '../content/VideoContent'
+import { LocalVideoContent } from '../content/LocalVideoContent'
 import { TextContent } from '../content/TextContent'
 import { Title } from '../content/Title'
 import { Paragraph } from '../content/Paragraph'
@@ -23,10 +23,10 @@ export function ExampleImage() {
   )
 }
 
-// Example: Using VideoContent
+// Example: Using LocalVideoContent
 export function ExampleVideo() {
   return (
-    <VideoContent 
+    <LocalVideoContent
       src="https://example.com/video.mp4"
       title="Example video"
       controls={true}
@@ -83,7 +83,7 @@ export function ExampleCombined() {
         <Paragraph text="More content after the image." />
       </TextContent>
       
-      <VideoContent 
+      <LocalVideoContent
         src="https://example.com/demo-video.mp4"
         title="Demo video"
       />
