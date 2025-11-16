@@ -16,8 +16,8 @@ export default function HelpPage() {
       <div className={styles.container}>
         <TextContent>
           <Title text={strings.welcome.help} level={1} className={styles.title} />
-          <Paragraph text="Help content will be displayed here. This page provides assistance and guidance for using Defluencer." />
-          <Paragraph text="You can find answers to common questions, tutorials, and support resources." />
+          <Paragraph className={styles.description} text="Help content will be displayed here. This page provides assistance and guidance for using Defluencer." />
+          <Paragraph className={styles.description} text="You can find answers to common questions, tutorials, and support resources." />
         </TextContent>
       </div>
     </main>
